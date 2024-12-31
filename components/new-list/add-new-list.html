@@ -1,0 +1,16 @@
+<dialog id="add-new-list-dialog">
+    <form id="add-new-list-form" action="/components/new-list/add-new-list.js" method="post">
+        <p class="default-label">
+            <label for="list-name">Nome da Lista</label>
+            <input id="list-name" type="text" name="list_name"/>
+        </p>
+        <p class="default-label">
+            <label for="list-description">Descrição</label>
+            <textarea id="list-description" name="list_description"></textarea>
+        </p>
+        <div class="add-new-list-buttons">
+            <button id="abort-button">Cancelar</button>
+            <button id="confirm-button">Confirmar</button>
+        </div>
+    </form>
+</dialog>
