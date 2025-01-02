@@ -4,7 +4,7 @@ aside {
     gap: 2.8rem;
 }
 
-.tasks-lists {
+.task-lists {
     margin-left: 1.5rem;
 }
 
@@ -19,7 +19,7 @@ aside {
     gap: 0.25rem;
 }
 
-.items-principal__item {
+.card-list {
     display: flex;
     width: 200px;
     background-color: var(--gray-100);
@@ -31,16 +31,16 @@ aside {
 
 .item-list-select {
     color: var(--color-white);
-    background-color: var(--secondary-color);
+    background-color: var(--blue-400);
     font-weight: 700;
 }
 
-.item-list:hover {
+.card-list:hover {
     background-color: var(--gray-200);
     transition-duration: 400ms;
 }
 
-.item-principal-text, .item-principal-number {
+.card-list-text, .item-list-number {
     padding: 1rem 0.5rem;
 }
 
@@ -51,7 +51,7 @@ aside {
     justify-content: space-between;
 }
 
-#add-new-list {
+#add-new-card {
     color: var(--gray-700);
     border: 1px solid transparent;
     border-radius: 4px;

@@ -1,9 +1,0 @@
-#add-new-list-dialog {
-    height: 500px;
-    width: 500px;
-}
-
-#add-new-list-dialog::backdrop {
-    background-color: var(--color-black);
-    opacity: 50%;
-}
