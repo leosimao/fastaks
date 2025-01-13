@@ -51,7 +51,7 @@ aside {
     justify-content: space-between;
 }
 
-#add-new-card {
+#add-new-card__button {
     color: var(--gray-700);
     border: 1px solid transparent;
     border-radius: 4px;

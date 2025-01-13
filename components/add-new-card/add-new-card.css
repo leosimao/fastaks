@@ -1,0 +1,11 @@
+#add-new-card__dialog {
+    border: none;
+    border-radius: 4px;
+    width: 38.75rem;
+    height: 20rem;
+}
+
+#add-new-card__dialog::backdrop {
+    background-color: var(--color-black);
+    opacity: 0.5;
+}
