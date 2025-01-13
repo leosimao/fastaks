@@ -21,7 +21,7 @@ function loadDialogComponent() {
             import('../add-new-card/add-new-card.js')
                 .then(module => module.loadDialogAddNewCard(addNewCardDialog));
 
-            buttonAddNewCard.addEventListener('click', (event) => {
+            buttonAddNewCard.addEventListener('click', () => {
                 addNewCardDialog.showModal()
             })
         })
